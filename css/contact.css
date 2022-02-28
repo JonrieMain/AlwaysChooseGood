@@ -1,0 +1,42 @@
+.main-container .contact{
+	height: 100%;
+	width: 100%;
+	padding: 0 0 1rem 1rem;
+	background: url("../images/bg3-backup.jpg") no-repeat center bottom/cover;
+}
+.main-container .contact h1,p{
+	text-align: center;
+	color: #000;
+}
+.main-container .contact .contact-content{
+	display: flex;
+	justify-content: space-between;
+	max-width: 1230px;
+	margin: 0 auto;
+}
+.main-container .contact .contact-content form{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	max-width: 600px;
+	box-shadow: 0 5px 20px rgb(0, 0, 0,0.4);
+	padding: 3.5rem;
+}
+.main-container .contact .contact-content form input{
+	border-radius: 3px solid gray;
+	padding: 1rem;
+	margin-bottom: 1rem;
+}
+.main-container .contact .contact-content form button{
+	margin-top: 1rem;
+	background: #e5155b;
+	color: #fff;
+	padding: .8rem;
+	width: 15%;
+	min-width: 5rem;
+	
+}
+
+.main-container .footer p span{
+	color: #e5155b;
+}

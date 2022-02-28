@@ -1,0 +1,65 @@
+.main-container .about{
+	height: 100%;
+	width: 100%;
+	padding: 1.5rem 0;
+}
+.main-container .about h1{
+	text-align: left;
+	padding-left: 8rem;
+}
+.main-container .about h1 span{
+	color: #e5155b;
+	font-size: 4rem;
+	font-weight: bold;
+}
+.main-container .about .aboutContent{
+	display: flex;
+	justify-content: space-around;
+	padding: .5rem 5rem;
+}
+.main-container .about .aboutContent img{
+	height: 100%;
+	width: 100%;
+	max-height: 40rem;
+	max-width: 40rem;
+}
+.main-container .about .aboutContent p{
+	max-width: 500px;
+	font-size: 1.1rem;
+	padding: 0 1rem 0 0;
+	opacity: .8;
+	color: #000;
+}
+
+
+
+@media screen and (max-width: 993px){
+	.main-container .about h1{
+	text-align: center;
+	padding-left: 0;
+}
+.main-container .about .aboutContent{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: .2rem;
+}
+.main-container .about .aboutContent p{
+	max-width: 500px;
+	font-size: 1.5rem;
+	padding: 0;
+	text-align: center;
+	opacity: .8;
+}
+}
+
+
+@media screen and (max-width: 600px){
+	.main-container .about .aboutContent p{
+	max-width: 1000px;
+	padding: 0;
+	text-align: center;
+	opacity: .8;
+}
+}
